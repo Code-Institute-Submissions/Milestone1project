@@ -16,7 +16,7 @@ body {
 
 /* Overriding the Boot strap 4 nav text colour */
 .nav-link {
-	color: rgba(255, 255, 255, 0.6)!important;
+	color: rgba(255, 255, 255, 0.6) !important;
 	font-size: 15px;
 }
 
