@@ -5,19 +5,17 @@ Based (with information and permissions to use there brand) on a local reptile s
 
 I'm creating the site to inform their customers of the services and products offered.
 
-I'm also using the site to help the company create and maintain a sense of community using the CareSheets and gallery pages. 
+I'm also using the site to help the company create and maintain a sense of community using the CareSheets/gallery pages. 
  
 ## UX
  
 User Stories.
 
-User A ~ I am a potential  Gecko owner and I want to find out the temperature My Leapord Gecko needs to have So I know if I can supply the right care.
+User A ~ I am a new customer with an existing pet looking for a new pet supply store so I can feed and care for my reptiles
 
-User B ~ I am a new customer with an existing pet looking for a new pet supply store so I can feed and care for my reptiles
+User B ~ As a new pet owner I need to find a place to but pet supplies so I can travel there and purchase them.
 
-User C ~ As a new pet owner I need to find a place to but pet supplies so I can travel there and purchase them.
-
-User D ~ As the Owner of a pet with specialist dietary needs I need to know if a potential store can find and supply for these needs
+User C ~ As the Owner of a pet with specialist dietary needs I need to know if a potential store can find and supply for these needs
 
 ## Features
 
@@ -29,9 +27,6 @@ Nav Bar ~ The Nav bar will be un-obtrusive when the user scrolls down the page.
 
 The footer~ the footer will be repeated on each page and will include the contact details , social media accounts and a map to the stores location.
  
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
@@ -50,7 +45,7 @@ For this project I used the following technologies
     - The project uses **bootstrap 4** to simplify CSS style manipulation.
 
 - [Font Awesome 4](https://fontawesome.com/v4.7.0/)
-    - The project uses **Font Awesome** for the Iconography of the site
+    - The project uses **Font Awesome** for the Iconography of the site.
 
 ## Testing
 
@@ -103,8 +98,12 @@ Green Snakes
 Bootstrap 3 Documentation
 - [bootstrap 4 documantation](https://getbootstrap.com/docs/4.0)
 
+W3 Schools- Ued to refresh my memory on elements and styling
+- [w3schools](https://www.w3schools.com/)
+
 ### Acknowledgements
 
-- I received inspiration for [IHS](https://www.ihs-web.org.uk/) the international Herpetelogical Society.
+- the Reptile Hotel its self for permission to base my project on them.
+- I received inspiration for [IHS](https://www.ihs-web.org.uk/) the international Herpetological Society.
 
-- I would like to acknowledge the help and guidence provided by my Mentor Antonija Simic.
+- I would like to acknowledge the help and guidance provided by my Mentor Antonija Simic.
