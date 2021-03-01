@@ -46,6 +46,11 @@ For this project I used the following technologies
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+- [Bootstrap 4](https://getbootstrap.com/)
+    - The project uses **bootstrap 4** to simplify CSS style manipulation.
+
+- [Font Awesome 4](https://fontawesome.com/v4.7.0/)
+    - The project uses **Font Awesome** for the Iconography of the site
 
 ## Testing
 
@@ -69,20 +74,16 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This Project is deployed on Github pages, each push updates the page so it is at least a commit behind.
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Photos are sourced from  [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com)
+
+- the Font used is the "Roboto" font and is imported from [google Fonts](https://fonts.google.com/)
+
 
 ### Media
 Bearded DragonImage
