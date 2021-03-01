@@ -95,55 +95,54 @@ body {
 
 /* ---------------- HOMEPAGE REVIEWS -------------- */
 .reviews-section {
-	 height: 95vh;
-	
+	height: 95vh;
+
 }
 
-.hide{
-	display: none;
+/* Image */
+.rh-review-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	object-fit: cover;
 }
 
-.rh-review-card{
+/* Container */
+.rh-review-card {
+	position: relative;
+	margin-bottom: 3rem;
+
+}
+
+.rh-review-card:hover .overlay {
+	opacity: 0.6;
+  }
+
+.rh-review-text {
 	color: white;
+	position: absolute;
+	bottom: 3%;
+	right: 3%;
+	text-align: end;
 }
 
-.rh-review-card:hover > .hide{
-	display: block;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.6);
-	padding: 0;
-	
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 15px;
+	right: 15px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgb(0, 0, 0 )
 }
-
-#review1,
-#review2,
-#review3,
-#review4 {
-	height: 300px;
-	width: 50%;	
-}
-
-#review1 {
-	background: url(../images/review1.jpg);
-	background-size: cover;
-	
-}
-
-#review2 {
-	background: url(../images/review2.jpg);
-	background-size: cover;
-}
-
-#review3 {
-	background: url(../images/review3.jpg);
-	background-size: cover;
-}
-
-#review4 {
-	background: url(../images/review4.jpg);
-	background-size: cover;
-}
-
 
 
 /* ---------------- MEDIA QUERIES ---------------- */
+
+@media not all and (hover:hover){
+	.rh-review-card .overlay {
+		opacity: 0.6;
+	  }
+}
+
