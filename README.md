@@ -95,12 +95,12 @@ Leapord Gecko Image
 Green Snakes
 - [Photo by Foto-rabe from Pixabay](https://pixabay.com/images/id-653639/)
 
-receipt
-- [Photo of Receipt by Stevepb from pixabay](https://pixabay.com/images/id-879498/)
+### Other Resources
+ I used stack overflow to research a number of issues
+- [Stack Overflow](https://stackoverflow.com/)
 
-Snake on leaf
--   [Snake on leaf by LMoonlight from Pixabay](https://pixabay.com/images/id-3364032/)
-
+Bootstrap 3 Documentation
+- [bootstrap 4 documantation](https://getbootstrap.com/docs/4.0)
 
 ### Acknowledgements
 
