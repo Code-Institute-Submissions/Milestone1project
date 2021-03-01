@@ -7,6 +7,8 @@ I'm creating the site to inform their customers of the services and products off
 
 I'm also using the site to help the company create and maintain a sense of community using the CareSheets/gallery pages. 
  
+
+ The current website for reptile hotel is missing a lot of important information, my aim it to fix this problem, through user stories and agile design.
 ## UX
  
 User Stories.
