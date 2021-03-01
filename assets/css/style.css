@@ -79,42 +79,71 @@ body {
 
 }
 
-/* ---------------- HOMEPAGE HISTORY -------------- */
-
-.history {
-	margin: 5rem 0;
-}
-
 
 /* ---------------- HOMEPAGE SERVICES -------------- */
 
-.services-section{
+.services-section {
 	background-color: var(--rh-green);
-	
+
 	padding: 2rem 0;
 }
 
-.rh-fonticon{
+.rh-fonticon {
 	margin: 0;
 	font-size: 50px;
 }
 
 /* ---------------- HOMEPAGE REVIEWS -------------- */
-.reviews-section{
-	height: 50vh;
+.reviews-section {
+	 height: 95vh;
+	
 }
 
-#review1{
-	background: url(../images/review2.png);
+.hide{
+	display: none;
+}
+
+.rh-review-card{
+	color: white;
+}
+
+.rh-review-card:hover > .hide{
+	display: block;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 0;
+	
+}
+
+#review1,
+#review2,
+#review3,
+#review4 {
+	height: 300px;
+	width: 50%;	
+}
+
+#review1 {
+	background: url(../images/review1.jpg);
 	background-size: cover;
-	width: 100%;
-	height: 25vh;
+	
 }
 
-#review2{}
+#review2 {
+	background: url(../images/review2.jpg);
+	background-size: cover;
+}
 
-#review3{}
+#review3 {
+	background: url(../images/review3.jpg);
+	background-size: cover;
+}
 
-#review4{}
+#review4 {
+	background: url(../images/review4.jpg);
+	background-size: cover;
+}
+
+
 
 /* ---------------- MEDIA QUERIES ---------------- */
