@@ -99,10 +99,7 @@ Here we set the background image and  the positioning of the elements int he hea
 /* The review section contains an overlay style tat shows on hover 
 	reviews section is the container for the overlay
 */
-.reviews-section {
-	height: 95vh;
 
-}
 
 .rh-review-img {
 	height: 100%;
@@ -140,12 +137,42 @@ Here we set the background image and  the positioning of the elements int he hea
 	background-color: var(--rh-green);
 }
 
+/* ---------------- FOOTER ---------------- */
+
+.footsection{
+	background-color: var(--rh-green);
+	padding: 3rem;
+
+}
+
+.rh-social-list{
+	list-style-type: none;
+}
+
+.rh-social-list li a{
+	font-size: 50px;
+	color: white;
+}
+
+
 /* ---------------- MEDIA QUERIES ---------------- */
 
 /* Styled so devices with out hover (Mobiles/tables) have the review opacity hover disabled and shown */
-@media not all and (hover:hover){
+@media not all and ( hover:hover){
 	.rh-review-card .overlay {
 		opacity: 0.6;
 	  }
+}
+
+/* Styled so devices classed as small and extra small the Social media Icon display in a row and not column */
+
+@media screen and (max-width: 767px){
+	.rh-social-list{
+		list-style-type: none;
+		display: flex;
+	}
+	.rh-social-list li {
+		margin: 1rem auto;
+	}
 }
 
