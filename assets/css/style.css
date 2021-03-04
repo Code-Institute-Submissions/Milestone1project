@@ -213,6 +213,14 @@ Here we set the background image and  the positioning of the elements int he hea
 	right: 22px;
 }
 
+/* ---------------- GALLERY PAGE---------------- */
+
+.contact-header-img {
+	background-image: url('../images/gecko.png');
+	height: 95vh;
+	background-size: cover;
+}
+
 /* ---------------- MEDIA QUERIES ---------------- */
 
 /* Styled so devices classed as small and extra small the Social media Icon display in a row and not column */
