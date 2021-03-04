@@ -19,10 +19,6 @@ body {
 }
 
 /* Overriding the Boot strap 4 nav text colour */
-.nav-link {
-	color: var(--nav-link-color) !important;
-	font-size: 15px;
-}
 
 .text-color-white {
 	color:var(--text-color-white);
@@ -38,8 +34,7 @@ body {
 }
  
 .button:hover{
-	transform: scale(0.9);
-	
+	transform: scale(0.9);	
 }
 
 .header-extra-link {
@@ -54,18 +49,16 @@ body {
 	color: rgba(0, 0, 0, 0.6);
 }
 
-.nav-active-border {
-	border-bottom: 2px solid var(--green);
-}
+
 
 /* ---------------- HEADER -------------- */
 /* this section contained the header and nav styles, 
 Here we set the background image and  the positioning of the elements int he header. we also set a custom navbar toggle to override the bootstrap class*/
+
 .header-img {
 	background: url("../images/bearded-dragon.png");
 	height: 95vh;
 	background-size: cover;
-
 }
 
 .header-img h1 {
@@ -85,10 +78,26 @@ Here we set the background image and  the positioning of the elements int he hea
 	margin-bottom: 10px;
 }
 
-.navbar ul a:hover {
-	border-bottom: 2px solid var(--green);
-	margin: 0;
+.nav-link {
+	color: var(--nav-link-color) !important;
+	font-size: 15px;
+	border-bottom: 2px solid transparent;
+}
 
+.nav-active-border {
+	border-bottom: 2px solid var(--green);
+}
+
+.navbar ul{
+	border-bottom: 2px solid var(--green);
+	border-bottom-color: transparent;
+	
+}
+
+.navbar ul a:hover {
+	margin: 0;
+	border-bottom-color: var(--green);
+	transition: border-bottom-color 0.5s ease-in-out;
 }
 
 /* ---------------- HOMEPAGE HISTORY -------------- */
@@ -126,7 +135,6 @@ Here we set the background image and  the positioning of the elements int he hea
 .review-card {
 	position: relative;
 	margin-bottom: 3rem;
-
 }
 
 .review-card:hover .overlay {
@@ -185,13 +193,24 @@ Here we set the background image and  the positioning of the elements int he hea
 
 /* Styled so devices classed as small and extra small the Social media Icon display in a row and not column */
 
-@media screen and (min-width: 500px){
+@media screen and (max-width: 830px){
+	
+	footer iframe{
+		width: 99%;
+	}
+
+}
+
+@media screen and (max-width: 766px){
+	
 	.social-list{
-		list-style-type: none;
 		display: flex;
 	}
 	.social-list li {
 		margin: 1rem auto;
 	}
+
+	
 }
+
 
