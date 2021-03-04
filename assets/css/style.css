@@ -185,7 +185,7 @@ Here we set the background image and  the positioning of the elements int he hea
 /* ---------------- GALLERY PAGE---------------- */
 
 .gallery-header-img {
-	background-image: url(/assets/images/gallery-header.png);
+	background-image: url(./assets/images/gallery-header.png);
 	height: 95vh;
 	background-size: cover;
 }
