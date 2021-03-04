@@ -3,10 +3,9 @@
 
 /* ---------------- Variables -------------- */
 :root {
-	--green: #8DB04C;
+	--green: #8db04c;
 	--nav-link-color: rgba(255, 255, 255, 0.6);
 	--text-color-white: #fff;
-	
 }
 
 /* ---------------- Utilities  -------------- */
@@ -14,14 +13,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
 
 /* Overriding the Boot strap 4 nav text colour */
 
 .text-color-white {
-	color:var(--text-color-white);
+	color: var(--text-color-white);
 }
 
 .button {
@@ -32,9 +31,9 @@ body {
 	background-color: transparent;
 	transition: transform 0.3s ease-in-out;
 }
- 
-.button:hover{
-	transform: scale(0.9);	
+
+.button:hover {
+	transform: scale(0.9);
 }
 
 .header-extra-link {
@@ -49,14 +48,13 @@ body {
 	color: rgba(0, 0, 0, 0.6);
 }
 
-
-
+/* ---------------- HOMEPAGE -------------- */
 /* ---------------- HEADER -------------- */
 /* this section contained the header and nav styles, 
 Here we set the background image and  the positioning of the elements int he header. we also set a custom navbar toggle to override the bootstrap class*/
 
 .header-img {
-	background: url("../images/bearded-dragon.png");
+	background-image: url('../images/bearded-dragon.png');
 	height: 95vh;
 	background-size: cover;
 }
@@ -88,10 +86,9 @@ Here we set the background image and  the positioning of the elements int he hea
 	border-bottom: 2px solid var(--green);
 }
 
-.navbar ul{
+.navbar ul {
 	border-bottom: 2px solid var(--green);
 	border-bottom-color: transparent;
-	
 }
 
 .navbar ul a:hover {
@@ -102,7 +99,7 @@ Here we set the background image and  the positioning of the elements int he hea
 
 /* ---------------- HOMEPAGE HISTORY -------------- */
 
-.history-section{
+.history-section {
 	margin-bottom: 3rem;
 }
 
@@ -123,7 +120,6 @@ Here we set the background image and  the positioning of the elements int he hea
 /* The review section contains an overlay style tat shows on hover 
 	reviews section is the container for the overlay
 */
-
 
 .review-img {
 	height: 100%;
@@ -156,61 +152,88 @@ Here we set the background image and  the positioning of the elements int he hea
 	left: 15px;
 	right: 15px;
 	opacity: 0;
-	transition: .5s ease;
+	transition: 0.5s ease;
 	background-color: var(--green);
 }
 
 /* ---------------- FOOTER ---------------- */
 
-.footer-section{
+.footer-section {
 	background-color: var(--green);
 	padding: 3rem;
-
 }
 
-.social-list{
+.social-list {
 	list-style-type: none;
 }
 
-.social-list li a{
+.social-list li a {
 	font-size: 50px;
 	color: white;
 }
 
-.footer-links{
+.footer-links {
 	color: white;
 	text-decoration: none;
-
 }
 
-.footer-links:hover{
-	color:black;
+.footer-links:hover {
+	color: black;
 	text-decoration: none;
+}
+
+/* ---------------- GALLERY PAGE---------------- */
+
+.gallery-header-img {
+	background-image: url(/assets/images/gallery-header.png);
+	height: 95vh;
+	background-size: cover;
+}
+.gallery-section {
+	position: relative;
+}
+.gallery-section img {
+	height: auto;
+	width: auto;
+	margin: 2rem 0;
+	object-fit: cover;
+	-webkit-box-shadow: 7px 6px 22px -6px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 6px 22px -6px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 6px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.gallery-text {
+	background-color: rgba(0, 0, 0, 0.6);
+	justify-items: center;
+	color: var(--text-color-white);
+	padding: 1px 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 22px;
+	right: 22px;
 }
 
 /* ---------------- MEDIA QUERIES ---------------- */
 
-
 /* Styled so devices classed as small and extra small the Social media Icon display in a row and not column */
 
-@media screen and (max-width: 830px){
-	
-	footer iframe{
+@media screen and (max-width: 830px) {
+	footer iframe {
 		width: 99%;
 	}
-
 }
 
-@media screen and (max-width: 766px){
-	
-	.social-list{
+@media screen and (max-width: 766px) {
+	.social-list {
 		display: flex;
 	}
 	.social-list li {
 		margin: 1rem auto;
 	}
-
-	
 }
 
-
+@media screen and (max-width: 991px) {
+	.gallery-text {
+		font-size: 15px;
+	}
+}
