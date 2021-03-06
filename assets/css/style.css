@@ -28,7 +28,7 @@ body {
 	border-radius: 15px;
 	padding: 10px 20px;
 	color: var(--text-color-white);
-	background-color: transparent;
+	background-color: var(--green);
 	transition: transform 0.3s ease-in-out;
 }
 
@@ -217,26 +217,81 @@ Here we set the background image and  the positioning of the elements int he hea
 
 .contact-header-img {
 	background-image: url('../images/gecko.png');
-	height: 95vh;
+	height: 85vh;
 	background-size: cover;
+}
+
+/* CONTACT PAGE */
+
+#contactform {
+	margin: 2rem 5rem;
+	color: var(--text-color-white);
+}
+
+.form-control {
+	color: var(--text-color-white);
+	background-color: rgba(255, 255, 255, 0.13);
+	border: 0px;
+	outline: none;
+	border-bottom: solid 1px var(--green);
+}
+
+.form-control:focus {
+	outline: none;
+	color: var(--text-color-white);
+	background: transparent;
+}
+
+.modal-content {
+	height: 250px;
+	width: 500px;
+	position: absolute;
+	left: calc(50% - 250px);
+	top: 100px;
+	/* background-color: var(--text-color-white); */
+	border: 3px solid var(--green);
+	border-radius: 15px;
+}
+.modal-header,
+.modal-body {
+	border: none;
+}
+
+#modalclose {
+	margin-bottom: 0.5rem;
+}
+
+.modalheader {
+	margin: 0 auto;
 }
 
 /* ---------------- MEDIA QUERIES ---------------- */
 
 /* Styled so devices classed as small and extra small the Social media Icon display in a row and not column */
 
-@media screen and (max-width: 830px) {
-	footer iframe {
-		width: 99%;
+@media screen and (max-width: 600px) {
+	.modal-content {
+		height: 300px;
+		width: 250px;
+		position: absolute;
+		left: calc(50% - 125px);
+		top: 100px;
+		/* background-color: var(--text-color-white); */
+		border: 3px solid var(--green);
+		border-radius: 15px;
 	}
 }
-
 @media screen and (max-width: 766px) {
 	.social-list {
 		display: flex;
 	}
 	.social-list li {
 		margin: 1rem auto;
+	}
+}
+@media screen and (max-width: 830px) {
+	footer iframe {
+		width: 99%;
 	}
 }
 
