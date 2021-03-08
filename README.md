@@ -59,6 +59,8 @@ I then used a combination of Bootstrap 4's grid system and media queries.
 On the contact page I designed and created the form with validation in mind, To this end I checked that the contact form worked using
 code institutes form validation tester "https://formdump.codeinstitute.net/". Once it return the correct information I changed it to the modal.
 
+Once all coding was done I ran the code through the [HTML Validator](https://validator.w3.org/) and the [CSS Validator](https://jigsaw.w3.org/css-validator/). after running the test on each  file I fixed any errors given and the files are now validated.
+
 ## Deployment
 
 This Project is deployed on Github pages, each push updates the page so it is at least a commit behind. To do this I pushed the code to Github and in the settings I scrolled down to the web host section and enabled the website.
