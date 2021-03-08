@@ -35,72 +35,69 @@ The footer~ the footer will be repeated on each page and will include the contac
 For this project I used the following technologies
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-    - this project uses HTML5 for is core structure.
+         This project uses HTML5 for is core structure.
 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-    - this project uses CSS3 for its styling.
+         This project uses CSS3 for its styling.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+        The project uses **JQuery** to simplify DOM manipulation.
 
 - [Bootstrap 4](https://getbootstrap.com/)
-    - The project uses **bootstrap 4** to simplify CSS style manipulation.
+         The project uses **bootstrap 4** to simplify CSS style manipulation.
 
 - [Font Awesome 4](https://fontawesome.com/v4.7.0/)
-    - The project uses **Font Awesome** for the Iconography of the site.
+         The project uses **Font Awesome** for the Iconography of the site.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+During the testing phase I spent time Working on the responsive design element.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I tested this by using google chromes dev tools and changing the width of the screen,  
+I then used a combination of Bootstrap 4's grid system and media queries.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+On the contact page I designed and created the form with validation in mind, To this end I checked that the contact form worked using
+code institutes form validation tester "https://formdump.codeinstitute.net/". Once it return the correct information I changed it to the modal.
 
 ## Deployment
 
-This Project is deployed on Github pages, each push updates the page so it is at least a commit behind.
-
+This Project is deployed on Github pages, each push updates the page so it is at least a commit behind. To do this I pushed the code to Github and in the settings I scrolled down to the web host section and enabled the website.
 
 ## Credits
 
 ### Content
+
 - Photos are sourced from  [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com)
 
 - the Font used is the "Roboto" font and is imported from [google Fonts](https://fonts.google.com/)
 
 
 ### Media
+
 Bearded DragonImage
+
 - [Photo by Egor Kamelev from Pexels]( https://www.pexels.com/photo/green-and-gray-bearded-dragon-751698/)
 
-
 Leapord Gecko Image
+
 - [Photo by Pixabay from Pexels](https://www.pexels.com/photo/animal-biology-blur-close-up-407037/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
 Green Snakes
+
 - [Photo by Foto-rabe from Pixabay](https://pixabay.com/images/id-653639/)
 
 ### Other Resources
+
  I used stack overflow to research a number of issues
+
 - [Stack Overflow](https://stackoverflow.com/)
 
 Bootstrap 3 Documentation
+
 - [bootstrap 4 documantation](https://getbootstrap.com/docs/4.0)
 
 W3 Schools- Ued to refresh my memory on elements and styling
+
 - [w3schools](https://www.w3schools.com/)
 
 ### Acknowledgements
