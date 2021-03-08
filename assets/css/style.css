@@ -55,6 +55,7 @@ Here we set the background image and  the positioning of the elements int he hea
 
 .header-img {
 	background-image: url('../images/bearded-dragon.png');
+	background-position: center center;
 	height: 95vh;
 	background-size: cover;
 }
@@ -186,6 +187,7 @@ Here we set the background image and  the positioning of the elements int he hea
 
 .gallery-header-img {
 	background-image: url('../images/gallery-header.png');
+	background-position: center center;
 	height: 95vh;
 	background-size: cover;
 }
@@ -217,6 +219,7 @@ Here we set the background image and  the positioning of the elements int he hea
 
 .contact-header-img {
 	background-image: url('../images/gecko.png');
+	background-position: center center;
 	height: 85vh;
 	background-size: cover;
 }
@@ -248,7 +251,6 @@ Here we set the background image and  the positioning of the elements int he hea
 	position: absolute;
 	left: calc(50% - 250px);
 	top: 100px;
-	/* background-color: var(--text-color-white); */
 	border: 3px solid var(--green);
 	border-radius: 15px;
 }
