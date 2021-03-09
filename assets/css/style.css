@@ -220,7 +220,7 @@ Here we set the background image and  the positioning of the elements int he hea
 .contact-header-img {
 	background-image: url('../images/gecko.png');
 	background-position: center center;
-	height: 85vh;
+	height: 99vh;
 	background-size: cover;
 }
 
@@ -282,13 +282,25 @@ Here we set the background image and  the positioning of the elements int he hea
 		border: 3px solid var(--green);
 		border-radius: 15px;
 	}
+	.social-list {
+		display: flex;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.footer-section {
+		padding: 1rem 0;
+	}
+
+	.logo-text {
+		font-size: 20px;
+	}
 }
 @media screen and (max-width: 766px) {
 	.social-list {
 		display: flex;
 	}
 	.social-list li {
-		margin: 1rem auto;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 830px) {
@@ -300,5 +312,24 @@ Here we set the background image and  the positioning of the elements int he hea
 @media screen and (max-width: 991px) {
 	.gallery-text {
 		font-size: 15px;
+	}
+}
+
+@media screen and (max-height: 350px) {
+	#contactform {
+		font-size: 16px;
+		margin: 0;
+	}
+	textarea {
+		height: 50px;
+	}
+	.footer-section {
+		height: 90vh;
+	}
+}
+
+@media screen and (max-height: 670px) {
+	.footer-section iframe {
+		display: none;
 	}
 }
