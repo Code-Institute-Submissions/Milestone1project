@@ -11,7 +11,7 @@ I'm also using the site to help the company create and maintain a sense of commu
  The current website for reptile hotel is missing a lot of important information, my aim it to fix this problem, through user stories and agile design.
 ## UX
  
-User Stories.
+### User Stories.
 
 User A ~ I am a new customer with an existing pet looking for a new pet supply store so I can feed and care for my reptiles
 
