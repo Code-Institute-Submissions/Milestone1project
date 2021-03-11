@@ -4,7 +4,7 @@
 /* ---------------- Variables -------------- */
 :root {
 	--green: #8db04c;
-	--nav-link-color: rgba(255, 255, 255, 0.6);
+	--nav-link-color: rgba(255, 255, 255, 0.9);
 	--text-color-white: #fff;
 }
 
@@ -28,12 +28,24 @@ body {
 	border-radius: 15px;
 	padding: 10px 20px;
 	color: var(--text-color-white);
-	background-color: var(--green);
+	transition: transform 0.3s ease-in-out;
+}
+
+.button-black {
+	border: 2px solid var(--green);
+	border-radius: 15px;
+	padding: 10px 20px;
+	color: black;
 	transition: transform 0.3s ease-in-out;
 }
 
 .button:hover {
 	transform: scale(0.9);
+}
+
+.button-black:hover {
+	transform: scale(0.9);
+	color: var(--text-color-white);
 }
 
 .header-extra-link {
@@ -80,6 +92,7 @@ Here we set the background image and  the positioning of the elements int he hea
 .nav-link {
 	color: var(--nav-link-color) !important;
 	font-size: 15px;
+	font-weight: 400;
 	border-bottom: 2px solid transparent;
 }
 
@@ -170,16 +183,20 @@ Here we set the background image and  the positioning of the elements int he hea
 
 .social-list li a {
 	font-size: 50px;
+	color: black;
+}
+
+.social-list li a:hover {
 	color: white;
 }
 
 .footer-links {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 .footer-links:hover {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -191,9 +208,11 @@ Here we set the background image and  the positioning of the elements int he hea
 	height: 95vh;
 	background-size: cover;
 }
+
 .gallery-section {
 	position: relative;
 }
+
 .gallery-section img {
 	height: auto;
 	width: auto;
@@ -228,7 +247,7 @@ Here we set the background image and  the positioning of the elements int he hea
 
 #contactform {
 	margin: 2rem 5rem;
-	color: var(--text-color-white);
+	font-weight: 600;
 }
 
 .form-control {
@@ -236,7 +255,7 @@ Here we set the background image and  the positioning of the elements int he hea
 	background-color: rgba(255, 255, 255, 0.13);
 	border: 0px;
 	outline: none;
-	border-bottom: solid 1px var(--green);
+	border-bottom: solid 3px var(--green);
 }
 
 .form-control:focus {
@@ -254,6 +273,7 @@ Here we set the background image and  the positioning of the elements int he hea
 	border: 3px solid var(--green);
 	border-radius: 15px;
 }
+
 .modal-header,
 .modal-body {
 	border: none;
@@ -282,11 +302,13 @@ Here we set the background image and  the positioning of the elements int he hea
 		border: 3px solid var(--green);
 		border-radius: 15px;
 	}
+
 	.social-list {
 		display: flex;
 		margin: 0 auto;
 		padding: 0;
 	}
+
 	.footer-section {
 		padding: 1rem 0;
 	}
@@ -295,14 +317,17 @@ Here we set the background image and  the positioning of the elements int he hea
 		font-size: 20px;
 	}
 }
+
 @media screen and (max-width: 766px) {
 	.social-list {
 		display: flex;
 	}
+
 	.social-list li {
 		margin: 0 auto;
 	}
 }
+
 @media screen and (max-width: 830px) {
 	footer iframe {
 		width: 99%;
@@ -320,9 +345,11 @@ Here we set the background image and  the positioning of the elements int he hea
 		font-size: 16px;
 		margin: 0;
 	}
+
 	textarea {
 		height: 50px;
 	}
+
 	.footer-section {
 		height: 90vh;
 	}
