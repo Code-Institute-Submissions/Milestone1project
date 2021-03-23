@@ -298,7 +298,6 @@ Here we set the background image and  the positioning of the elements int he hea
 		position: absolute;
 		left: calc(50% - 125px);
 		top: 100px;
-		/* background-color: var(--text-color-white); */
 		border: 3px solid var(--green);
 		border-radius: 15px;
 	}
